@@ -1,0 +1,25 @@
+/**
+Syntax
+
+selector{
+    property:value;
+
+}
+**/
+
+p{
+    color:brown;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+div p{
+    color:yellow;
+}
+
+div,p {
+    
+}
+

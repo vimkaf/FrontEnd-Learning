@@ -1,0 +1,46 @@
+.numbers{
+    color:white;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.numbers h2{
+    margin:0;
+    font-size: 50px;
+}
+
+.numbers img{
+    width: 100px;
+}
+
+.numbers p{
+    font-weight: 900;
+}
+.one{
+    background-color: black;
+}
+
+.two{
+    background-color: green;
+}
+
+.three{
+    background-color: blue;
+}
+
+.four{
+    background-color: orange;
+}
+
+.five{
+    background-color: yellow;
+}
+
+
+.six{
+    background-color: indianred;
+}
