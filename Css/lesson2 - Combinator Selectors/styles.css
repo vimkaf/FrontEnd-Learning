@@ -1,0 +1,35 @@
+/* Child selector(>) */
+/* Selects the paragraphs inside a div */
+div > p{
+    color:aquamarine;
+}
+
+
+/* Does the same as the child selector */
+div p{
+    color: green;
+}
+
+/* Selects the paragraph immediately after the div */
+div + p{
+    color:darkgoldenrod;
+}
+
+/* Selects multiple elements */
+div, p{
+    color:red;
+}
+
+div >  p  > span{
+    color:blue;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:yellow;
+}
+
+/* General sibling selector */
+div ~ p{
+    color:whitesmoke;
+}
+

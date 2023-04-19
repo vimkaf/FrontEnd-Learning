@@ -1,0 +1,27 @@
+/* Normal color names */
+p{
+    color:red;
+}
+
+
+/* Hex values */
+
+p{
+    color:#893ab9;
+    /* color:#000000;
+    color:#ffffff; */
+}
+
+
+/* rgba colors */
+div{
+    color:rgb(72, 172, 32);
+    color:rgb(0, 255, 0,0.9);
+}
+
+
+/* hsla color */
+/* h - Hue, S- saturation, l - Light, a - Opacity */
+div{
+    color:hsla(25,50%,50%,0.5);
+}

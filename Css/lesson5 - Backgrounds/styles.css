@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(200,180,90);
+    background-image: url("zeus.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:left; 
+    /* background-attachment: scroll; */
+
+
+    /* background: color image repeat attachment position ; */
+
+    /* background: rgb(200,180,90) url('zeus.jpg')
+    no-repeat scroll left;
+    background-size: contain; */
+
+
+}
+
+
+p{
+    font-size: 40px;
+
+    color:rgba(255,0,0,0.5);
+    opacity:0.4;
+}

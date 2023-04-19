@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        a:visited{
+            color:red;
+        }
+
+        a:active{
+            color:yellow;
+        }
+
+        *:hover{
+            color:purple;
+        }
+
+        input:focus{
+            background-color: brown;
+            color:white;
+        }
+
+        input:hover{
+            background-color: yellow;
+        }
+
+
+        div > p:first-child{
+            color:blue;
+        }
+
+        div > p:last-child{
+            color:red;
+        }
+
+        div > p:nth-child(3){
+            color:green;
+        }
+
+        span::after{
+            content: " .... ";
+        }
+
+        span::before{
+            content:" '==& ";
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <a href="https://google.com">Google</a>
+    <a href="http://xyz.eu">Never visited</a>
+
+    <p>Hello there!! Welcome!</p>
+
+    <input type="text">
+
+    <div>
+        <p>A paragraph</p>
+        <p>A paragraph</p>
+        <p>A paragraph</p>
+        <p>A paragraph</p>
+        <p>A paragraph</p>
+        
+    </div>
+
+    <span>This is a span</span>
+</body>
+</html>
