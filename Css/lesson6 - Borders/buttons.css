@@ -1,0 +1,25 @@
+.btn{
+    width:100px;
+    height:30px;
+    border-radius: 5px;
+    cursor:pointer;
+    border:0;
+    box-shadow:0 0 2px 0px lightgray;
+    text-decoration: none;
+    padding:10px;
+}
+
+.btn-primary{
+    background-color: #7200ff;
+    color:white;
+}
+
+.btn-secondary{
+    background-color: #6d7280;
+    color:white;
+}
+
+.btn-success{
+    background-color:#00c900;
+    color:white;
+}

@@ -1,0 +1,23 @@
+.parent{
+    background-color: blueviolet;
+    width: 400px;
+    height: 400px;
+    /* padding-top:10px;
+    padding-left:30px;
+    padding-right:500px; */
+    /* padding:10px 0 10px 20px; */
+    /* padding:10px 20px; */
+
+    padding:100px 0;
+    box-sizing: border-box;
+
+}
+
+.child{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin:auto;
+}
+
+/* 400 + 30 + 500 = 930 */
