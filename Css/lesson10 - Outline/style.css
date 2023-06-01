@@ -1,0 +1,14 @@
+div{
+    border:2px solid brown;
+    outline: 3px solid red;
+
+    /* outline-width: 2px;
+    outline-style: solid;
+    outline-color: blue; */
+
+
+    outline:2px solid blue;
+
+    /*This adds space between the border and the outline */
+    outline-offset: 1px;
+}

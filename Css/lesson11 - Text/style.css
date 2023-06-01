@@ -1,0 +1,63 @@
+/** Text Alignment **/
+
+p{
+    color:red;
+    /*  center, left, right, justify */
+    text-align:justify;
+    /* ltr, rtl */
+    direction: ltr;
+    vertical-align: bottom;
+}
+
+div{
+    outline:2px solid red;
+    width: 100%;
+    height: auto;
+}
+span{
+    color:#333;
+    text-align:right;
+    vertical-align:sub;
+}
+/** Text Decoration **/
+
+h2{
+    /* underline, overline, line-through */
+    text-decoration-line:underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+    text-decoration-style: solid;
+
+    /* text-decoration:solid underline 3px blue; */
+    text-decoration:green overline 10px dotted;
+}
+
+a{
+    text-decoration:none;
+    color:purple;
+}
+
+
+/** Transforming Text **/
+
+h3{
+    /** capitalize, lowercase, uppercase **/
+    text-transform: uppercase ;
+}
+
+/** Text spacing **/
+.text{
+    text-indent: 50px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 30px;
+    white-space: normal;
+}
+
+/** Text-shadow **/
+h4{
+    color:whitesmoke;
+    font-size: 50px;
+    text-shadow:10px 0px 10px yellowgreen;
+}
+
