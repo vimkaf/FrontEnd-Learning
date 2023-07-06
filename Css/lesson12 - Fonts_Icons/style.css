@@ -1,0 +1,23 @@
+/**
+Generic Fonts
+Serif
+SanSerif
+Monospace
+Cursive
+**/
+
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400;500&family=Plus+Jakarta+Sans&family=Roboto&display=swap');
+*{
+   font-family: Plus Jakarta Sans; 
+}
+
+p{
+    font-family: 'Geologica','Times New Roman', Times, serif;
+    font-size: 10vw;
+    font-style: normal;
+
+}
+
+.whatsapp{
+    color:darkgreen;
+}
