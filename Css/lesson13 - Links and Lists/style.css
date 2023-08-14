@@ -55,3 +55,15 @@ a:active{
     border-radius: 8px;
     color:white !important;
 }
+
+ul{
+    list-style-type:lower-alpha;
+    /* padding:10px; */
+}
+ul li{
+    /* color:blue; */
+}
+
+ol{
+    list-style-type:decimal;
+}
