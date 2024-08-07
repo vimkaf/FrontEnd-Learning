@@ -1,0 +1,43 @@
+body{
+    margin:0;
+}
+.container{
+    width: 100%;
+    height: auto;
+    outline: 2px solid red;
+    position: relative;
+   
+}
+
+
+.box{
+    width:500px;
+    height: 500px;
+    outline:1px solid green;
+    position: absolute;
+    font-size:150px;
+    text-align: center;
+    color: white;
+}
+
+.box1{
+    background-color: green;
+    z-index:2;
+    top:10px;
+    left:10px;
+}
+
+.box2{
+    background-color: red;
+    z-index:3;
+    top:0px;
+    left:0px;
+}
+
+.box3{
+    background-color: blue;
+    z-index:1;
+
+    top:20px;
+    left:20px;
+}

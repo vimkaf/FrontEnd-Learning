@@ -1,0 +1,52 @@
+nav{
+    outline:1px solid green;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+ul > li{
+    display:inline-block;
+}
+
+ul:not(.dropdown-menu) > li:last-child{
+    float: right;
+    outline:1px solid red;
+}
+
+.dropdown{
+
+    position: relative;
+}
+
+.dropdown:hover > .dropdown-menu{
+    display: block;
+}
+
+.dropdown-menu{
+    display: none;
+    position:absolute;
+    width: calc(100% + 30px);
+    outline:1px solid purple;
+}
+
+.dropdown-menu > li{
+    display: block;
+    cursor:pointer;
+}
+
+a[href ~="#news-header"]{
+    color:green;
+}
+
+
+li[class = 'item']{
+    color:red;
+}

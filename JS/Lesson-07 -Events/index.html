@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <script src="script.js"></script>
+    <style>
+        div {
+            background: green;
+            width: 50%;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body onload="pageloaded(event)">
+    <p ondblclick="alert('You double clicked me')">This is a paragraph</p>
+    <button onclick="alert('You clicked me')">Click me</button>
+    <button onclick="doSomething()">Click me again</button>
+    <div onmouseleave="mouseleft(this)" onmouseover="mouseovered(this, event)">
+        <h1>A</h1>
+    </div>
+
+
+    <button onclick="login(event , this)">Login</button>
+</body>
+
+</html>
