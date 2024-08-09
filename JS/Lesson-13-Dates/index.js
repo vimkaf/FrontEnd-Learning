@@ -34,3 +34,10 @@ date4.setFullYear(2003);
 date4.setMonth(5);
 date4.setDate(10);
 console.log(date4.toDateString());
+
+const date5 = date4;
+
+console.log(date3 > date4);
+console.log(date4 === date5);
+
+console.log(date4 - date3);
