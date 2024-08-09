@@ -1,24 +1,32 @@
+//For Of Loops- Iterables
+
+// for (placeholder of object) {
+// }
+
 const books = [
-  { title: "How to make money", author: "John Doe", publisher: "Oxford" },
   {
     title: "Mechanical Engineering",
     author: "Jane Doe",
     publisher: "Macmillian",
   },
+  {
+    title: "Civil Engineering",
+    author: "John Doe",
+    publisher: "Oxford",
+  },
+  {
+    title: "Industrial Engineering",
+    author: "Dexter Doe",
+    publisher: "NGM",
+  },
 ];
 
 for (book of books) {
-  console.log(book);
+  console.log(`${book.title} - ${book.author} - ${book.publisher}`);
 }
 
-const languages = ["Hausa", "Igbo", "Yoruba"];
+const fullname = "Olukayode Adams";
 
-for (lang of languages) {
-  console.log(lang);
-}
-
-const fullName = "Oluwakayode Adams";
-
-for (character of fullName) {
+for (character of fullname) {
   console.log(character);
 }
