@@ -10,3 +10,30 @@ const cart = [
 ];
 
  */
+
+const cart = [
+  { name: "Laptop", price: 900, quantity: 1 },
+  { name: "Mouse", price: 20, quantity: 2 },
+  { name: "Keyboard", price: 50, quantity: 1 },
+];
+
+function calculateTotalPrice(cart) {
+  const totalPrices = {};
+
+  cart.forEach((item) => {
+    let totalPrice = item.price * item.quantity;
+
+    let discountedPrice = totalPrice;
+
+    if (totalPrice > 100) {
+      let discount = (10 / 100) * totalPrice;
+      discountedPrice = totalPrice - discount;
+    }
+
+    totalPrices[item.name] = discountedPrice;
+  });
+
+  console.log(totalPrices);
+}
+
+calculateTotalPrice(cart);

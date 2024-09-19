@@ -6,3 +6,19 @@
  * "Goodbye Sad World"; 5 vowels
  *
  */
+
+function numberOfVowels(str) {
+  let numberOfVowels = 0;
+
+  //   const vowels = ["A", "E", "I", "O", "U", "a", "e", "i", "o", "u"];
+  const vowels = "AEIOUaeiou";
+  for (char of str) {
+    if (vowels.includes(char)) {
+      numberOfVowels++;
+    }
+  }
+
+  console.log(`There are ${numberOfVowels} vowels in ${str}`);
+}
+
+numberOfVowels("Goodbye Sad World");
