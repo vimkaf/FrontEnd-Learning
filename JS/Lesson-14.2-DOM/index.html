@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - Forms</title>
+</head>
+
+<body>
+    <p>Paragraph</p>
+    <form id="register">
+        <div>
+            <label for="">Full name</label>
+            <input id="fullname" type="text">
+            <span id="errormessage"></span>
+        </div>
+
+        <div>
+            <label for="">Email</label>
+            <input id="email" type="email" value="">
+        </div>
+
+        <div>
+            <label for="">Age</label>
+            <input type="number" name="" id="age">
+        </div>
+
+        <div>
+            <label for="#">Gender</label>
+            <select name="" id="gender">
+                <option value=""></option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+
+        <button id="registerButton" type="button">Register</button>
+ 
+    </form>
+
+    <br>
+
+    <form id="login">
+        <div>
+            <label for="">Email</label>
+            <input id="email" type="text" value="">
+        </div>
+
+        <div>
+            <label for="">Password</label>
+            <input type="password" name="" id="password">
+        </div>
+
+        <button type="button">Login</button>
+ 
+    </form>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
